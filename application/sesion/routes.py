@@ -13,4 +13,4 @@ def index():
 
     print(data)
 
-    return 'hola'
+    return render_template('index.html')
