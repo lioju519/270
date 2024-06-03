@@ -11,6 +11,6 @@ def index():
     data = cur.fetchall()
     cur.close()
 
-    print(data)
+    #print(data)
 
     return render_template('index.html')
